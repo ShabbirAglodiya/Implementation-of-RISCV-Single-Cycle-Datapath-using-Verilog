@@ -1,0 +1,8 @@
+// Reg 5 is initialised to value 5 and Reg 5 is initialised to Value 4
+
+or x7,x5,x6
+and x8,x5,x6
+and x9,x7,x8
+or x10,x7,x8
+and x11,x9,x10
+and x12,x9,x10

@@ -1,0 +1,31 @@
+//Reg x1 is initialised to 1
+//Reg x2 is initialised to 2
+//Reg x3 is initialised to 3
+//Reg x4 is initialised to 4
+//Reg x5 is initialised to 5
+//Reg x6 is initialised to 6
+//Reg x7 is initialised to 7
+//Reg x8 is initialised to 8
+//Reg x9 is initialised to 9
+
+//mem[0] is initialised to 0
+//mem[1] is initialised to 1
+//mem[2] is initialised to 2
+//mem[3] is initialised to 3
+//mem[4] is initialised to 4
+//mem[5] is initialised to 5
+//mem[6] is initialised to 6
+//mem[7] is initialised to 7
+//mem[8] is initialised to 8
+//mem[9] is initialised to 9
+
+//The Below instruction are converted to HEX code in "memfile2.hex" and then that file is being provided to instruction memory
+
+
+and x10,x1,x2
+or x11,x3,x4
+add x12,x5,x6
+slt x13,x7,x8
+lw x14,0(x9)
+sub x15,x1,x2
+sw x9, 0(x16)
